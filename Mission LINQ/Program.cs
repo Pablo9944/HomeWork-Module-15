@@ -18,14 +18,19 @@ class Program
     {
         var result = from students in classes
                      from student in students.Students
-                     select student;
+                     select new
+                     {
+                         name = student
+                     };
        
         string[] tempArray = new string[result.Count()];
+        var listTemp = new List<string>();
+
+        foreach (var item in result)
+            listTemp.Add(item.name);
+
+        tempArray = listTemp.ToArray();
         
-        for (int i = 0; i < tempArray.Length; i++)
-        {
-            tempArray[i] = tempArray.Take(i).ToString();
-        }
         return tempArray;
     }
 
@@ -33,5 +38,4 @@ class Program
     {
         public List<string> Students = new List<string>();
     }
-}
 }
