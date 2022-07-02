@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork Module 15", "HomeWork Module 15\HomeWork Module 15.csproj", "{656DFC6C-ED60-4634-B266-2F7DAFBB6A9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission LINQ", "Mission LINQ\Mission LINQ.csproj", "{B96E9051-DC5E-409B-B170-7EF1ACBD434C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{656DFC6C-ED60-4634-B266-2F7DAFBB6A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{656DFC6C-ED60-4634-B266-2F7DAFBB6A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{656DFC6C-ED60-4634-B266-2F7DAFBB6A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96E9051-DC5E-409B-B170-7EF1ACBD434C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96E9051-DC5E-409B-B170-7EF1ACBD434C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96E9051-DC5E-409B-B170-7EF1ACBD434C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96E9051-DC5E-409B-B170-7EF1ACBD434C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
